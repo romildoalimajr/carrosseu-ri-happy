@@ -2,3 +2,35 @@
     font-family: Arial, sans-serif;
     background-color: #f9f6f6;
 }
+
+.tabs{
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+
+.tab-link {
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+    width: 237px;
+    height: 38px;
+    border-radius: 20px;
+    border: none;
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 700;
+    transition: 0.3s ease-in-out;
+}
+
+.tab-link:hover{
+    background-color: #ffdf00;
+    color: #000;
+}
+.tab-link.active{
+    background-color: #fff;
+    color: #000;
+    border: 1px solid yellow;
+}
